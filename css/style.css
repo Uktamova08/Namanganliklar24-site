@@ -376,6 +376,7 @@ body {
 }
 
 .hero-line {
+    color: #d1d1d1;
     margin-bottom: 20px;
     margin-top: 0;
 }
@@ -472,18 +473,22 @@ body {
 .footer-right:not(:last-child) {
     margin-bottom: 10px;
 }
-.footer-right-wrapper{
-    margin-top: 0;
+
+.footer-right-wrapper {
+    margin-top: 53px;
     width: 392px;
     height: 502px;
 }
+
 .img {
     width: 393px;
     height: 338px;
 }
-.footer-top-wrapper{
+
+.footer-top-wrapper {
     display: flex;
 }
+
 .footer-bottom {
     padding-right: 221px;
     padding-left: 221px;
@@ -492,7 +497,6 @@ body {
     background-color: #7297ef;
 }
 
-.footer-wrapper {}
 
 .footer-logo-svg {
     color: #fff;
@@ -532,7 +536,7 @@ body {
     margin-top: 0;
     padding: 0;
     list-style-type: none;
-   
+
 }
 
 .footer-list-item {
@@ -558,7 +562,7 @@ body {
     margin-right: 100px;
 }
 
-.footer-icon {}
+
 
 
 
