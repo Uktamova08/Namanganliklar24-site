@@ -48,12 +48,11 @@ body {
 }
 
 .header-logo-svg {
+    display: flex;
     color: #7296EE;
-}
-
-.header-logo-svg {
     margin-right: 41px;
 }
+
 
 .header-left-content {
     display: flex;
@@ -152,7 +151,7 @@ body {
     padding-bottom: 7px;
     padding-left: 7px;
     padding-right: 7px;
-    padding: 3px;
+    
 }
 
 .language-ru {
@@ -224,10 +223,7 @@ body {
 
 .feature-img {
     display: flex;
-    width: 1200px;
-    height: 128px;
-    left: 120px;
-    top: 216px;
+ 
     background-color: url(optimize.png);
     border-radius: 8px;
 }
@@ -283,7 +279,7 @@ body {
 }
 
 .promo-img {
-    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .footer {
@@ -305,7 +301,6 @@ body {
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
-    align-items: center;
     color: #5E5F61;
 }
 
@@ -446,6 +441,7 @@ body {
 }
 
 .h3 {
+    margin-top: 0;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 343px;
@@ -504,6 +500,7 @@ body {
 }
 
 .footer-inner {
+   
     margin-top: 0;
     padding-top: 15px;
     display: flex;
