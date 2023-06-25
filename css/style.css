@@ -540,13 +540,14 @@ body {
 }
 
 .footer-list {
+margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
     list-style-type: none;
 }
 .footer-list-item:not(:last-child){
-    margin-right: 100px;
+    /* margin-right: 100px; */
 }
 .footer-list-item {
     font-family: 'Rubik';
@@ -561,9 +562,6 @@ margin-bottom: 30px;
     color: #fff;
 }
 
-.footer-list-link:not(:last-child) {
-    margin-right: 100px;
-}
 
 
 
