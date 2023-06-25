@@ -256,7 +256,7 @@ body {
 }
 
 .promo-link {
-    display:inline-block;
+    display: inline-block;
     margin-bottom: 10px;
     font-family: 'Rubik';
     font-style: normal;
@@ -266,6 +266,7 @@ body {
     text-decoration: none;
     color: #000000;
 }
+
 .promo-text {
     margin-top: 0;
     font-family: 'Rubik';
@@ -435,9 +436,11 @@ body {
 
     color: #4A4B4C;
 }
-.footer-bottom-inner{
+
+.footer-bottom-inner {
     display: flex;
 }
+
 .footer-button {
     width: 796px;
     height: 53px;
@@ -482,6 +485,7 @@ body {
     width: 392px;
     height: 502px;
 }
+
 .img {
     width: 393px;
     height: 338px;
@@ -540,21 +544,23 @@ body {
 }
 
 .footer-list {
-margin-right: auto;
+    margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
     list-style-type: none;
 }
-.footer-list-item:not(:last-child){
-    /* margin-right: 100px; */
+
+.footer-list:not(:last-child) {
+    margin-right: 100px;
 }
+
 .footer-list-item {
     font-family: 'Rubik';
     font-size: 16px;
     font-weight: 500;
     line-height: 18px;
-margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .footer-list-link {
