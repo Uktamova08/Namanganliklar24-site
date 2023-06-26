@@ -457,6 +457,8 @@ body {
 }
 
 .footer-wrapper {
+   width: 100%;
+   max-width: 918px;
     padding-left: 130px;
     padding-right: 130px;
 }
@@ -470,6 +472,7 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #7297ef;
+
 }
 
 
@@ -492,6 +495,7 @@ body {
 .footer-bottom-text {
     margin-top: 0;
     padding-bottom: 0;
+    margin-right: 203px;
     font-family: 'Rubik';
     width: 400px;
     font-size: 12px;
