@@ -39,9 +39,6 @@ body {
 }
 
 .header {
-    margin-top: 0;
-    padding-bottom: 0;
-    margin-right: 0;
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #F6F6F6;
@@ -57,12 +54,7 @@ body {
 .header-left-content {
     display: flex;
     align-items: center;
-    margin-right: 0;
 
-}
-
-.header-left-content:not(:last-child) {
-    margin-right: 41px;
 }
 
 .currency-rate-wrapper {
@@ -94,8 +86,6 @@ body {
     padding: 3px;
     width: 70px;
     height: 36px;
-    left: 1136px;
-    top: 35px;
     display: flex;
     background: #DCE6FF;
     border-radius: 39px;
@@ -130,8 +120,6 @@ body {
     font-family: 'Rumbik';
     width: 70px;
     height: 36px;
-    left: 1136px;
-    top: 35px;
     border-radius: 39px;
     display: flex;
     justify-content: center;
@@ -225,7 +213,6 @@ body {
 
 .feature-img {
     display: flex;
-
     background-color: url(optimize.png);
     border-radius: 8px;
 }
@@ -234,7 +221,6 @@ body {
 .promo {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .promo-content {
