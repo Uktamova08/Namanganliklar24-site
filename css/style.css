@@ -466,8 +466,7 @@ body {
 }
 
 .footer-bottom {
-    padding-right: 221px;
-    padding-left: 221px;
+    padding: 0 120px;
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #7297ef;
@@ -475,7 +474,9 @@ body {
 
 
 .footer-logo-svg {
+    display: flex;
     color: #fff;
+    margin-bottom: 15px;
 }
 
 .footer-inner {
@@ -490,6 +491,7 @@ body {
 
 .footer-bottom-text {
     margin-top: 0;
+    padding-bottom: 0;
     font-family: 'Rubik';
     width: 400px;
     font-size: 12px;
