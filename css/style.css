@@ -418,18 +418,19 @@ body {
 }
 
 .footer-button {
+    width: 100%;
+    padding: 17px;
+    text-align: center;
     width: 796px;
     height: 53px;
     background-color: #eaeaea;
     border-radius: 10px;
+    cursor: pointer;
+   
 }
 
-.h3 {
-    width: 100%;
+.footer-button-link {
     margin-top: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
@@ -439,7 +440,8 @@ body {
 
 
     color: #000000;
-    cursor: pointer;
+   
+    text-decoration: none;
 }
 
 .footer-right {
