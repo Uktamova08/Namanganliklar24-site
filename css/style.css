@@ -102,46 +102,45 @@ body {
     background-position: 15px center;
 }
 
-.language-toggler {
-    font-family: 'Rumbik';
-    width: 70px;
-    height: 36px;
-    border-radius: 39px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #000;
-    background-color: #DCE6FF;
-
-}
-
-.language-toggler:not(:last-child) {
-    margin-right: 25px;
-}
-
 .currency-rate-symbol {
     margin-right: 4px;
 }
 
-.language-uz {
-    background-color: #fff;
-    border-radius: 50%;
+.language-toggler {
+    width: 70px;
+    height: 36px;
+    border-radius: 39px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DCE6FF;
+    margin-right: 25px;
     padding: 3px;
+}
+
+.language {
+    font-size: 13px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+
+.language-uz {
+   color: #000;
+    background-color: #fff;
     text-decoration: none;
 
 }
 
 .language-ru {
-    padding-top: 11px;
-    padding-bottom: 10px;
-    padding-right: 13px;
-    padding-left: 8px;
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
     line-height: 15px;
     color: #A6A6A6;
     text-decoration: none;
+    padding: 7px;
 }
 
 .button {
@@ -415,9 +414,10 @@ body {
     font-weight: 500;
     line-height: 24px;
     text-decoration: none;
- 
+
 }
-.footer-top-right-link:not(:last-child){
+
+.footer-top-right-link:not(:last-child) {
     margin-bottom: 10px;
 }
 
@@ -444,30 +444,8 @@ body {
     display: flex;
 }
 
-.footer-button {
-    width: 100%;
-    padding: 17px;
-    text-align: center;
-    background-color: #eaeaea;
-    border-radius: 10px;
-    cursor: pointer;
-
-}
-
-.footer-button-link {
-    margin-top: 0;
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
 
 
-    color: #000000;
-
-    text-decoration: none;
-}
 
 .footer-right {
     width: 393px;
@@ -492,6 +470,27 @@ body {
 .img {
     width: 393px;
     height: 338px;
+}
+
+.footer-button {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.footer-input {
+    display: block;
+    width: 100%;
+    border: 0;
+    cursor: pointer;
+    padding: 17px;
+    border-radius: 10px;
+    background-color: #eaeaea;
+    
 }
 
 .footer-wrapper {
