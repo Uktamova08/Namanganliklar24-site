@@ -19,6 +19,7 @@ html {
 }
 
 body {
+
     margin: 0;
     padding: 0;
     display: flex;
@@ -130,7 +131,7 @@ body {
 
 
 .language-uz {
-   color: #000;
+    color: #000;
     background-color: #fff;
     text-decoration: none;
 
@@ -222,6 +223,7 @@ body {
     border-radius: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
+
 }
 
 .promo-content:nth-child(3n) {
@@ -473,7 +475,7 @@ body {
 }
 
 .footer-button {
-   
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -490,7 +492,7 @@ body {
     padding: 17px;
     border-radius: 10px;
     background-color: #eaeaea;
-    
+
 }
 
 .footer-wrapper {
@@ -595,49 +597,122 @@ body {
     color: #fff;
 }
 
+.contact-page {
+    display: flex;
+}
 
+.contact-page-inner {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
 
+.contact-page-inner {
+    display: flex;
+}
 
+.contact-page-heading {
+    margin-top: 0;
+    color: #000;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 
+.contact-page-wrapper {
+    margin-bottom: 10px;
+}
 
+.contact-page-first-name {
+    max-width: 100%;
+    width: 343px;
+    padding: 18px;
+    padding-left: 20px;
+    padding-right: 291px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background-color: #FFF;
+    margin-right: 5px;
+}
 
+.contact-page-phone-number {
+    max-width: 100%;
+    width: 343px;
+    padding: 18px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background-color: #FFF;
+}
 
+.contact-page-email {
+    max-width: 100%;
+    width: 696px;
+    padding: 18px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background-color: #FFF;
+    margin-bottom: 10px;
+}
 
+.contact-page-textarea {
+    width: 696px;
+    padding: 18px;
+    padding-left: 20px;
+    border-radius: 10px;
+    min-width: 696px;
+    min-height: 180px;
+    resize: vertical;
+}
 
+.contact-page-button {
+    border: 0;
+    padding: 17px 30px;
+    border-radius: 10px;
+    background-color: #7297EF;
+    margin-left: auto;
+}
 
+.contact-page-right {
+    max-width: 100%;
+    width: 494px;
+    height: 320px;
+    border-radius: 10px;
+    background-color: #F6F6F6;
+    padding-left: 25px;
+    padding-right: 276px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
+.contact-page-right-heading {
+    margin-top: 0;
+    margin-bottom: 7px;
+    color: #000;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 
+.contact-page-text {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #000;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
+.contact-page-line {
+    margin-bottom: 20px;
+    width: 444px;
+    border: 1px solid #d2d2d2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min--moz-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 2/1),
-only screen and (min-device-pixel-ratio: 2),
-only screen and (min-resolution: 192dpi),
-only screen and (min-resolution: 2dppx) {}
+}
