@@ -41,9 +41,7 @@
                         <b class="currency-rate-symbol">P</b><span>138.26</span> </span>
                 </div>
 
-                <form action="https://echo.htmlacademy.ru" method="get">
                     <input class="input" type="text" placeholder="Поиск" name="search-text">
-                </form>
 
 
                 <div class="language-toggler">
@@ -71,38 +69,50 @@
             </ul>
             <div class="hero-line"></div>
         </section>
-
-
-
-
-        <main class="contact-page container">
-            <div class="contact-page-inner">
-                <div class="contact-page-left">
-                    <h2 class="contact-page-heading"> Напишите нам </h2>
-                    <div class="contact-page-wrapper">
-                        <input class="contact-page-first-name" type="text" placeholder="Имя">
-                        <input class="contact-page-phone-number" type="text" placeholder="Номер телефона">
+          <div class="contact-page container">
+              <form class="form " action="https://echo.htmlacademy.ru" method="post">
+                    <h2 class="input-heading">Напишите нам </h2>
+                    <div class="">
+                        <div class=" form-filed-wrapper  ">
+                            <div class="form-filed">
+                                <input class=" form-input input-name" type="text" name="name" aria-label="Имя" placeholder="Имя" required>
+                            </div>
+                            <div class="form-filed" >
+                                <input class=" form-input input-phone" type="text" name="phone" aria-label="Номер телефона" placeholder="Номер телефона" required>
+                            </div>
+                        </div>
+                        <div class="form-filed">
+                            <input class="form-input input-email" type="text" name="mail" aria-label="Электронная почта" placeholder="Электронная почта" required>
+                        </div>
+                        <div class="form-filed">
+                            <textarea class="form-input input-textarea" name="" aria-label="Текст
+                            " placeholder="Текст
+                            " required></textarea>
+                        </div>
                     </div>
-                    <input class="contact-page-email" type="email" placeholder="Электронная почта">
-                    <textarea class="contact-page-textarea" name="text">Текст</textarea>
-                    <div><button class="contact-page-button" type="submit">Отправить</button></div>
-                </div>
-                
-                <div class="contact-page-right">
+                <button class="input-button" aria-placeholder="Отправить">Отправить</button>
+              </form>
+              <div class="contact-page-wrapper">
+                <div class="contact-page-inner">
                     <div>
-                        <h2 class="contact-page-right-heading"> Электронная почта </h2>
+                        <h2 class="contact-page-right-heading">Электронная почта</h2>
                         <p class="contact-page-text">info@namanganliklar24.uz</p>
-                        <hr class="contact-page-line">
-                        <h2 class="contact-page-right-heading">Номер телефона </h2>
+                      
+                    </div>
+                    <hr class="contact-page-line">
+                    <div>
+                        <h2 class="contact-page-right-heading">Номер телефона</h2>
                         <p class="contact-page-text">+998 88 522-54-76</p>
-                        <hr class="contact-page-line">
-                        <h2 class="contact-page-right-heading"> Адрес </h2>
-                        <p class="contact-page-text">Ташкент, площадь Мустакиллик, 6 </p>
+                    </div>
+                    <hr class="contact-page-line">
+                    <div>
+                        <h2 class="contact-page-right-heading">Адрес</h2>
+                        <p class="contact-page-text">Адрес</p>
                     </div>
                 </div>
-            </div>
-         
-        </main>
+              </div>
+          </div>
+    
 
 
 

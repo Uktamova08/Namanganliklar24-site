@@ -59,10 +59,12 @@ body {
 }
 
 .currency-rate-wrapper {
+    display: flex;
     margin-right: auto;
 }
 
 .currency-rate {
+
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -81,6 +83,9 @@ body {
     color: #2959CE;
 }
 
+.currency-rate-symbol {
+    margin-right: 4px;
+}
 
 
 .input {
@@ -103,9 +108,7 @@ body {
     background-position: 15px center;
 }
 
-.currency-rate-symbol {
-    margin-right: 4px;
-}
+
 
 .language-toggler {
     width: 70px;
@@ -221,9 +224,12 @@ body {
     padding-left: 17px;
     padding-right: 17px;
     border-radius: 10px;
-    margin-right: 10px;
     margin-bottom: 10px;
 
+}
+
+.promo-content:not(:last-child) {
+    margin-right: 10px;
 }
 
 .promo-content:nth-child(3n) {
@@ -526,12 +532,6 @@ body {
     margin-bottom: 30px;
 }
 
-/* .footer-icon{
-    margin-right: auto;
-}
-.icon{
-    align-items: center;
-} */
 .icon:not(:last-child) {
     margin-right: 15px;
 }
@@ -568,7 +568,12 @@ body {
     margin-bottom: 0;
     padding: 0;
     list-style-type: none;
+   
 }
+.footer-list-item:not(:last-child){
+    margin-bottom: 20px;
+}
+
 
 .footer-list:not(:last-child) {
     margin-right: 100px;
@@ -584,34 +589,25 @@ body {
     max-width: 224px;
 }
 
-.footer-list-item {
-    font-family: 'Rubik';
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 18px;
-    margin-bottom: 20px;
-}
-
 .footer-list-link {
-    text-decoration: none;
     color: #fff;
+    text-decoration: none;
+  
 }
 
-.contact-page {
+form {
+    max-width: 100%;
+    width: 696px;
     display: flex;
-}
-
-.contact-page-inner {
-    display: flex;
-    padding-top: 20px;
+    flex-direction: column;
+    margin-right: 10px;
     padding-bottom: 100px;
+
+
 }
 
-.contact-page-inner {
-    display: flex;
-}
 
-.contact-page-heading {
+.input-heading {
     margin-top: 0;
     color: #000;
     font-family: Rubik;
@@ -621,71 +617,73 @@ body {
     line-height: normal;
 }
 
-.contact-page-wrapper {
+.form-input {
+    display: block;
+    width: 100%;
+    padding: 18px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: #FFF;
+}
+
+.form-filed-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-filed-wrapper .form-filed {
+    width: calc(50% - 5px);
+}
+
+.form-filed:not(:last-child) {
     margin-bottom: 10px;
 }
 
-.contact-page-first-name {
-    max-width: 100%;
-    width: 343px;
-    padding: 18px;
-    padding-left: 20px;
-    padding-right: 291px;
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.20);
-    background-color: #FFF;
-    margin-right: 5px;
-}
-
-.contact-page-phone-number {
-    max-width: 100%;
-    width: 343px;
-    padding: 18px;
-    padding-left: 20px;
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.20);
-    background-color: #FFF;
-}
-
-.contact-page-email {
-    max-width: 100%;
-    width: 696px;
-    padding: 18px;
-    padding-left: 20px;
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.20);
-    background-color: #FFF;
-    margin-bottom: 10px;
-}
-
-.contact-page-textarea {
-    width: 696px;
+.input-textarea {
     padding: 18px;
     padding-left: 20px;
     border-radius: 10px;
     min-width: 696px;
     min-height: 180px;
+    background-color: #FFF;
     resize: vertical;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background-color: #FFF;
 }
 
-.contact-page-button {
+
+.input-button {
+    margin-top: 20px;
     border: 0;
     padding: 17px 30px;
     border-radius: 10px;
     background-color: #7297EF;
     margin-left: auto;
+    align-self: flex-end;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
-.contact-page-right {
-    max-width: 100%;
+.contact-page {
+    display: flex;
+}
+
+
+.contact-page-wrapper {
     width: 494px;
-    height: 320px;
+    max-height: 310px;
+    margin-top: 49px;
     border-radius: 10px;
     background-color: #F6F6F6;
-    padding-left: 25px;
-    padding-right: 276px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+}
+.contact-page-inner {
+    width: 100%;
+    padding: 40px 25px; 
 }
 
 .contact-page-right-heading {
@@ -711,8 +709,8 @@ body {
 }
 
 .contact-page-line {
-    margin-bottom: 20px;
-    width: 444px;
     border: 1px solid #d2d2d2;
+    margin-top: 0;
+    margin-bottom: 20px;
 
 }
