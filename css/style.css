@@ -1,3 +1,11 @@
+
+:root{
+    --heading-color:#000;
+    --text-color:#4a4b4c;
+    --button-color:#7297ef;
+    --span-color:var(--span-color);
+
+}
 @font-face {
     font-family: 'Rubik';
     src: url('fonts/Rubik-Regular.woff2') format('woff2'),
@@ -31,7 +39,7 @@ html {
 *:focus {
     outline-width: 2px;
     outline-style: dashed;
-    outline-color: #7296ec;
+    outline-color: var(--button-color);
     outline-offset: 5px;
 
 }
@@ -65,7 +73,7 @@ body {
 
 .header-logo-svg {
     display: flex;
-    color: #7296EE;
+    color:var(--button-color);
     margin-right: 41px;
 }
 
@@ -98,7 +106,7 @@ body {
 }
 
 .currency-rate b {
-    color: #2959CE;
+    color:var(--button-color);
 }
 
 .currency-rate-symbol {
@@ -152,7 +160,7 @@ body {
 
 
 .language-uz {
-    color: #000;
+    color: var(--heading-color);
     background-color: #fff;
     text-decoration: none;
 
@@ -175,7 +183,7 @@ body {
     font-size: 16px;
     line-height: 19px;
     color: #fff;
-    background: #7296EC;
+    background: var(--button-color);
     border-radius: 10px;
     text-decoration: none;
 }
@@ -301,7 +309,7 @@ body {
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
-    color: #5E5F61;
+    color: var(--span-color);
 }
 
 .advertising {
@@ -336,7 +344,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 26px;
-    color: #000000;
+    color: var(--heading-color);
 }
 
 .advertising-link {
@@ -362,7 +370,7 @@ body {
     font-size: 24px;
     line-height: 28px;
 
-    color: #000000;
+    color: var(--heading-color);
     margin-bottom: 25px;
 
 }
@@ -414,7 +422,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 26px;
-    color: #000000;
+    color: var(--heading-color);
     text-decoration: none;
 }
 
@@ -433,7 +441,7 @@ body {
 .footer-top-right-link {
     display: block;
     margin-bottom: 8px;
-    color: #000;
+    color: var(--heading-color);
     font-size: 18px;
     font-family: Rubik;
     font-style: normal;
@@ -450,7 +458,7 @@ body {
 
 .footer-top-right-text {
     margin-top: 0;
-    color: #5E5F61;
+    color: var(--span-color);
     font-size: 13px;
     font-family: Rubik;
     font-style: normal;
@@ -533,7 +541,7 @@ body {
 .footer-bottom {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #7297ef;
+    background-color:var(--button-color);
 
 }
 
@@ -627,7 +635,7 @@ form {
 
 .input-heading {
     margin-top: 0;
-    color: #000;
+    color:var(--heading-color);
     font-family: Rubik;
     font-size: 24px;
     font-style: normal;
@@ -676,7 +684,7 @@ form {
     border: 0;
     padding: 17px 30px;
     border-radius: 10px;
-    background-color: #7297EF;
+    background-color:var(--button-color);
     margin-left: auto;
     align-self: flex-end;
     color: #FFF;
@@ -707,7 +715,7 @@ form {
 .contact-page-right-heading {
     margin-top: 0;
     margin-bottom: 7px;
-    color: #000;
+    color: var(--text-color);
     font-family: Rubik;
     font-size: 20px;
     font-style: normal;
