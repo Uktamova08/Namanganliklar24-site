@@ -33,7 +33,7 @@
                         <b class="currency-rate-symbol">P</b><span>138.26</span> </span>
                 </div>
 
-                    <input class="input" type="text" placeholder="Поиск" name="search-text">
+                <input class="input" type="text" placeholder="Поиск" name="search-text">
 
 
                 <div class="language-toggler">
@@ -61,7 +61,7 @@
             </ul>
             <div class="hero-line"></div>
         </section>
-        
+
         <section class="feature container">
             <h1 style="display: none;">oddiy matn</h1>
             <a class="feature-img" href="http://uzum.uz" target="_blank" rel="noopener noreferrer">
@@ -182,7 +182,7 @@
                 <div class="advertising-wrapper">
                     <div class="advertising-inner">
                         <h2 class="advertising-text">Хотите быть в курсе свежих новостей? Включите уведомления!</h2>
-                        <a class="advertising-link" href="#">Включит</a>
+                        <a class="advertising-link js-modal-opener" href="#">Включит</a>
                     </div>
                 </div>
             </section>
@@ -362,7 +362,8 @@
                     </p>
                     <ul class="footer-list footer-list-first">
                         <li class="footer-list-item"><a class="footer-list-link" href="#">Информация о сайте</a></li>
-                        <li class="footer-list-item"><a class="footer-list-link" href="contact.html">Напишите нам</a></li>
+                        <li class="footer-list-item"><a class="footer-list-link" href="contact.html">Напишите нам</a>
+                        </li>
                         <li class="footer-list-item"><a class="footer-list-link" href="#">Реклама</a></li>
                         <li class="footer-list-item"><a class="footer-list-link" href="#">Прислать новость</a></li>
                     </ul>
@@ -394,6 +395,21 @@
             </div>
         </section>
     </footer>
+
+
+
+    <!-- SITE-MODAL -->
+    <section class="modal-block js-modal">
+            <div class="modal-inner">
+                <img class="modal-img js-modal-close" src="img/close.svg" alt="">
+                <h3 class="modal-title">Хотите быть в курсе свежих новостей? Включите уведомления!
+                </h3>
+                <button class="button-close" type="button">
+                    Включит <span class="button-close-inner"></span>
+                </button>
+            </div>
+    </section>
+    <script src="main.js"></script>
 </body>
 
 </html>

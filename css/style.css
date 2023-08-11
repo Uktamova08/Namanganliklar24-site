@@ -1,11 +1,11 @@
-
-:root{
-    --heading-color:#000;
-    --text-color:#4a4b4c;
-    --button-color:#7297ef;
-    --span-color:var(--span-color);
+:root {
+    --heading-color: #000;
+    --text-color: #4a4b4c;
+    --button-color: #7297ef;
+    --span-color: var(--span-color);
 
 }
+
 @font-face {
     font-family: 'Rubik';
     src: url('fonts/Rubik-Regular.woff2') format('woff2'),
@@ -26,6 +26,7 @@
 
 html {
     height: 100%;
+    width: 100%;
     scroll-behavior: smooth;
     box-sizing: border-box;
 }
@@ -45,7 +46,6 @@ html {
 }
 
 body {
-
     margin: 0;
     padding: 0;
     display: flex;
@@ -73,7 +73,7 @@ body {
 
 .header-logo-svg {
     display: flex;
-    color:var(--button-color);
+    color: var(--button-color);
     margin-right: 41px;
 }
 
@@ -106,7 +106,7 @@ body {
 }
 
 .currency-rate b {
-    color:var(--button-color);
+    color: var(--button-color);
 }
 
 .currency-rate-symbol {
@@ -186,6 +186,11 @@ body {
     background: var(--button-color);
     border-radius: 10px;
     text-decoration: none;
+}
+
+main {
+    height: 100%;
+    width: 100%;
 }
 
 .hero {
@@ -384,6 +389,8 @@ body {
 }
 
 .footer {
+    height: 100%;
+    width: 100%;
     display: flex;
     padding-top: 50px;
     padding-bottom: 100px;
@@ -539,9 +546,10 @@ body {
 }
 
 .footer-bottom {
+
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color:var(--button-color);
+    background-color: var(--button-color);
 
 }
 
@@ -594,9 +602,10 @@ body {
     margin-bottom: 0;
     padding: 0;
     list-style-type: none;
-   
+
 }
-.footer-list-item:not(:last-child){
+
+.footer-list-item:not(:last-child) {
     margin-bottom: 20px;
 }
 
@@ -618,7 +627,7 @@ body {
 .footer-list-link {
     color: #fff;
     text-decoration: none;
-  
+
 }
 
 form {
@@ -635,7 +644,7 @@ form {
 
 .input-heading {
     margin-top: 0;
-    color:var(--heading-color);
+    color: var(--heading-color);
     font-family: Rubik;
     font-size: 24px;
     font-style: normal;
@@ -684,7 +693,7 @@ form {
     border: 0;
     padding: 17px 30px;
     border-radius: 10px;
-    background-color:var(--button-color);
+    background-color: var(--button-color);
     margin-left: auto;
     align-self: flex-end;
     color: #FFF;
@@ -707,9 +716,10 @@ form {
     border-radius: 10px;
     background-color: #F6F6F6;
 }
+
 .contact-page-inner {
     width: 100%;
-    padding: 40px 25px; 
+    padding: 40px 25px;
 }
 
 .contact-page-right-heading {
@@ -740,3 +750,76 @@ form {
     margin-bottom: 20px;
 
 }
+
+
+
+/* SITE-MODAL */
+
+.modal-none {
+    display: none;
+}
+.modal-block {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(68, 68, 68, 0.5);
+
+}
+
+.modal-inner {
+    top: 40%;
+    left: 295px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    width: 100%;
+    border-radius: 20px;
+    max-width: 850px;
+    background-color: #fff;
+}
+
+
+.modal-img {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.modal-title {
+    margin-top: 0;
+    padding-left: 169px;
+    color: #000;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    width: 712px;
+}
+
+.button {}
+
+
+.button-close {
+    display: flex;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 15px 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-left: auto;
+    border: 0;
+    border-radius: 10px;
+    background: #F78B3B;
+}
+
+.button-close-inner {}
