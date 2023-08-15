@@ -194,24 +194,27 @@ main {
 }
 
 .hero {
-    padding-top: 30px;
-    padding-bottom: 30px;
     background-color: #fff;
-
+    padding-bottom: 40px;
 }
 
 .hero-list {
     margin-top: 0;
-    margin-bottom: 0;
-    padding: 0;
+    margin: 0;
+    padding-left: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #d1d1d1;
+}
 
+.hero-list-item:not(:last-child) {
+    margin-right: 35px;
 }
 
 .hero-list-item {
     list-style-type: none;
-    margin-bottom: 20px;
 }
 
 .hero-link {
@@ -224,10 +227,6 @@ main {
     color: #7F7F7F;
     text-decoration: none;
 
-}
-
-.hero-list-item:not(:last-child) {
-    margin-right: 34px;
 }
 
 
@@ -380,8 +379,7 @@ main {
 .hero-line {
     margin: 0;
     border: 0;
-    background-color: #d2d2d2;
-    height: 1px;
+    border-bottom: 1px solid #d1d1d1;
     margin-bottom: 20px;
 }
 
@@ -404,9 +402,9 @@ main {
 .footer-top-content {
     background-color: #f6f6f6;
     border-radius: 15px;
-    display: flex;
     padding-top: 20px;
     padding-bottom: 20px;
+    display: flex;
     width: 797px;
     height: 205px;
 }
@@ -416,8 +414,8 @@ main {
 }
 
 .footer-top-img {
-    margin-left: 17px;
-    margin-right: 20px;
+    padding-left: 17px;
+    padding-right: 20px;
 }
 
 .footercontent:not(:last-child) {
