@@ -302,6 +302,7 @@ main {
 
 .footer-content {
     display: flex;
+    align-items: center;
 }
 
 .footer-text {
@@ -400,6 +401,7 @@ main {
 }
 
 .footer-top-content {
+    /* align-items: center; */
     background-color: #f6f6f6;
     border-radius: 15px;
     padding-top: 20px;
@@ -445,6 +447,11 @@ main {
     line-height: normal;
     color: #4A4B4C;
 
+}
+
+.footer-right-inner {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #d1d1d1;
 }
 
 .footer-top-right-link {
@@ -528,6 +535,12 @@ main {
 }
 
 .footer-input {
+    color: #000;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
     display: block;
     width: 100%;
     border: 0;
