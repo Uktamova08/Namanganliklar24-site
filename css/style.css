@@ -230,14 +230,12 @@ main {
     margin-right: 34px;
 }
 
-.feature {
-    margin-bottom: 50px;
-}
 
 .feature-img {
     display: flex;
     background-image: url(../img/optimize1.png);
     border-radius: 8px;
+    margin-bottom: 50px;
 }
 
 
@@ -247,6 +245,7 @@ main {
 }
 
 .promo-content {
+    
     width: 100%;
     max-width: 393px;
     background-color: #f6f6f6;
@@ -263,11 +262,10 @@ main {
     margin-right: 10px;
 }
 
-.promo-content:nth-child(3n) {
+.promo-content:nth-child(3n){
     margin: 0;
     margin-bottom: 10px;
 }
-
 .promo-link {
     display: inline-block;
     margin-bottom: 10px;
@@ -774,7 +772,7 @@ form {
 
 .modal-inner {
     top: 40%;
-    left: 295px;
+    left: 340px;
     padding-top: 50px;
     padding-bottom: 50px;
     position: relative;
